@@ -36,7 +36,7 @@ export default function Home() {
             <li>
             <BsFillMoonStarsFill onClick={() =>setDarkMode (!darkMode)} className="cursor-pointer text-2xl dark:text-gray-200 " />
             </li>
-            <li className="px-2"><a href="https://www.linkedin.com/in/liam-hall-23795a157/" target="_blank"><AiFillLinkedin className='dark:text-gray-200  text-teal-700 text-5xl'/></a></li>
+            <li className="px-2"><a href="https://www.linkedin.com/in/liam-hall-23795a157/" rel="noreferrer" target="_blank"><AiFillLinkedin className='dark:text-gray-200  text-teal-700 text-5xl'/></a></li>
 
             <li><a  class="inline-block px-7 py-3 dark:bg-orange-500 bg-teal-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md dark:hover:bg-orange-600 hover:bg-teal-800 hover:shadow-lg dark:focus:bg-orange-600 focus:bg-teal-800 focus:shadow-lg focus:outline-none focus:ring-0 dark:active:bg-orange-700 active:bg-teal-900 active:shadow-lg transition duration-150 ease-in-out" href="Liam_Hall.pdf" download>Resume</a>
 </li>
