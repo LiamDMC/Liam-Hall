@@ -7,7 +7,7 @@ import web1 from "../public/portfolio_template.png";
 import web2 from "../public/portfolio_template2.png";
 import web3 from "../public/portfolio_template3.png";
 import web4 from "../public/portfolio_templatee4.png";
-import web5 from "../public/portfolio_templatee5.png";
+import web5 from "../public/portfolio_templatee6.png";
 
 
 import { DiHtml5, DiJavascript1, DiCss3, DiBootstrap, DiReact, DiMysql} from 'react-icons/di';
@@ -123,17 +123,31 @@ export default function Home() {
 </div>
  
   <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap px-5 md:px-20 '>
+  <div className="basis-1/3 flex-1">
+  <a href={'https://codesandbox.io/p/sandbox/github/LiamDMC/E-Commerce-Dummy-Site/tree/master'} target="_blank" >
+      <Image src={web5} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+      </a>
+    </div>
     <div className="basis-1/3 flex-1">
+    <a href={'https://www.btcactivewear.co.uk/store/index.pl?PageName=CraftLandingPage'} target="_blank" >
       <Image src={web1} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+      </a>
     </div>
     <div className="basis-1/3 flex-1">
+    <a href={'http://ultimateclothingcollection.co.uk/'} target="_blank" >
       <Image src={web2} className="rounded-lg object-cover"  width={'100%'} height={'100%'} layout="responsive"/>
+      </a>
     </div>
     <div className="basis-1/3 flex-1">
+    <a href={'https://www.btcactivewear.co.uk/'} target="_blank" >
       <Image src={web3} className="rounded-lg object-cover"  width={'100%'} height={'100%'} layout="responsive"/>
+      </a>
     </div>
     <div className="basis-1/3 flex-1">
       <Image src={web4} className="rounded-lg object-cover"  width={'100%'} height={'100%'} layout="responsive"/>
+    </div>
+
+    <div className="basis-1/3 flex-1">
     </div>
     
    
