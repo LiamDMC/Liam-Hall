@@ -48,7 +48,7 @@ export default function Home() {
 <div className='col-span-3 md:col-span-3 lg:col-span-2'>
 <h2 className='text-5xl py-2 text-teal-700 font-medium md:text-6xl dark:text-orange-500'>Liam Hall</h2>
 <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200 '>Frontend Developer</h3>
-<p className='text-md py-5 leading-8 text-neutral-900 md:text-xl max-w-lg mx-auto dark:text-gray-200 '>An aspiring Front-end developer/Web Developer taking a further interest into focusing on JavaScript frameworks such as React. </p>
+<p className='text-md py-5 leading-8 text-neutral-900 md:text-xl max-w-lg mx-auto dark:text-gray-200 '>An aspiring Front-end developer/Web Developer looking to specialise either in a JavaScript framework such as React or E-commerce platform such as Shopify. </p>
 
 
 <div className='text-5xl flex justify-center gap-2 py-3 text-neutral-900'>
